@@ -164,7 +164,7 @@ func main12a() {
 }
 
 // MEMO: 13_Stacking defers
-func main() {
+func main13a() {
 	fmt.Println("counting")
 
 	for i := 0; i < 10; i++ {
