@@ -394,6 +394,7 @@ func adder() func(int) int { // intを引数に取り，intを返す関数を返
 }
 
 func main25b() {
+	// クロージャを作成，posとnegはそれぞれ独立したsumを持つ
 	pos, neg := adder(), adder()
 	for i := 0; i < 10; i++ {
 		fmt.Println(
